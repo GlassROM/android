@@ -594,4 +594,9 @@
 
   <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps" />
+  <remote name="op2-toolchain"
+	  fetch="https://bitbucket.org/anupritaisno1/"
+	  revision="linaro"
+	  clone-depth="1" />
+  <project path="toolchain" name="aarch64-linux-gnu" remote="op2-toolchain" />
 </manifest>
